@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--Semantic Html Elements-->
+        <!--headings-->
+        <header>
+            <h1>THIS IS WEEK TWO ASSIGNMENT</h1>
+        </header>
+        <!--Navigation tag-->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#champions">Champions</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+         <!--Section-->
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is about Formula 1. Formula One (F1) is the highest class of worldwide racing for open-wheel single-seater formula racing cars governed by the FIA.</p>
+            <p>This is an expensive sport to venture in.</p>
+            <p>It ideally captivates speed junkies and adrenaline enthusiasts</p>
+            <p>I love to use this search engine to learn about Formula 1 <a href="https://google.com"> Google </a></p>
+            <p> To visit the official Formula 1 website click <a href="https://www.formula1.com"> Formula 1</a></p>
+            <br>
+            <video width="300" height="200" controls>
+            <source src="New 2025 F1 Opening Titles.mp4" type="video/mp4">
+            Your browser does not support videos<br>
+        </section>
+        <h3>Team Cars</h3>
+            <img src="Alpine.jpg" alt="Alpine" height="150" width="300">
+            <img src="Aston Martin.png" alt="Aston Martin" height="150" width="300">
+            <img src="Ferrari.jpg" alt="Ferrari" height="150" width="300">
+            <img src="Haas.jpg" alt="Haas" height="150" width="300">
+            <img src="Mclaren.jpg" alt="Mclaren" height="150" width="300">
+            <img src="Mercedes.jpg" alt="Mercedes" height="150" width="300">
+            <img src="Red Bull.jpg" alt="Red Bull" height="150" width="300">
+            <img src="Racing bulls.jpg" alt="Racing bulls" height="150" width="300">
+            <img src="Sauber.jpg" alt="Sauber" height="150" width="300">
+            <img src="Williams.jpg" alt="Williams" height="150" width="300">
+            <h3>Drivers</h3>
+            <p>This is a list of the current drivers</p>
+            <ol>
+                <li>Max Verstappen</li>
+                <li>Lewis Hamilton</li>
+                <li>Charles Leclerc</li>
+                <li>Lando Norris</li>
+                <li>Carlos Sainz</li>
+                <li>George Russell</li>
+                <li>Oscar Piastri</li>
+            </ol>
+            <p>These are a few of the drivers that were dropped from the top tier</p>
+            <ul>
+            <li>Zhou Guanyu</li>
+            <li>Valtteri Bottas</li>
+            <li>Sergio Perez</li>
+            <li>Daniel Riccardo</li>
+        </ul>
+        <section id="champions">
+            <h2>Hall of Fame</h2>
+            <p>Here are a bit of the GOATs in Formula 1.</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Achievement</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Michael Schumacher</td>
+                        <td>Germany</td>
+                        <td>7 time champion</td>
+                    </tr>
+                    <tr>
+                        <td>Lewis Hamilton</td>
+                        <td>United Kingdom</td>
+                        <td>7 time champion</td>
+                    </tr>
+                    <tr>
+                        <td>Sebastian Vettel</td>
+                        <td>Germany</td>
+                        <td>4 time champion</td>
+                    </tr>
+                    <tr>
+                        <td>Alain Prost</td>
+                        <td>France</td>
+                        <td>4 time champion</td>
+                    </tr>
+                    <tr>
+                        <td>Ayrton Senna</td>
+                        <td>Brazil</td>
+                        <td>4 time champion</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </section>
+        <section id="feedback">
+            <h2>Survey</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here.." required>
+                <br><br>
+                <label for="email">Email:</label>
+                <!-- username@domain.com-->
+                 <input type="email" name="email" id="email" placeholder="Enter your email here.." required>
+                 <br><br>
+                 <label for="age">Age:</label>
+                 <input type="number" name="age" id="age" min="18" max="30" placeholder="Age" required>
+                 <br><br>
+                 <label for="gender">Gender:</label>
+                 <input type="radio" name="gender" value="Male" required>Male
+                 <input type="radio" name="gender" value="Female" required>Female
+                 <br><br>
+                 <label for="dob">Date of Birth:</label>
+                 <input type="date" name="dob" id="dob" required>
+                 <br><br>
+                 <label for="cars">Choose your favourite team:</label>
+                 <select name="cars" id="cars">
+                    <option value="Alpine">Alpine</option>
+                    <option value="Aston martin">Aston Martin</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Haas">Haas</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Mclaren">Mclaren</option>
+                    <option value="Racing bulls">Racing bulls</option>
+                    <option value="Red Bull">Red Bull</option>
+                    <option value="Sauber">Sauber</option>
+                    <option value="Williams">Williams</option>
+                </select>
+                <br><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="What is good about F1"></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <!--Footer element-->
+        <footer>
+            <p>&copy; 2025. FORMULA 1</p>
+        </footer>
+    </body>
+</html>
